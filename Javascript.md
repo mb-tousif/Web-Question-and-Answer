@@ -4,52 +4,15 @@
 </div>
 
 > [!NOTE]  
-> This repo was created in 2019 and the questions provided here are therefore based on the JavaScript syntax and behavior at that time. Since JavaScript is a constantly evolving language, there are newer language features that are not covered by the questions here.
+> This repo to help new developer to crack the Js concept and interview preparation. If you think this repo is helpful to you then give a star to this repo 😊, and also you can contribute to this repo.
 
 ---
 
 <p align="center">
 From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit or prepare for your coding interview! :muscle: :rocket: I update this repo regularly with new questions. I added the answers in the **collapsed sections** below the questions, simply click on them to expand it. It's just for fun, good luck! :heart:</p>
 
-<p align="center">Feel free to reach out to me! 😊</p>
-
-<p align="center">
-  <a href="https://www.instagram.com/theavocoder">Instagram</a> || <a href="https://www.twitter.com/lydiahallie">Twitter</a> || <a href="https://www.linkedin.com/in/lydia-hallie">LinkedIn</a> || <a href="https://www.lydiahallie.io/">Blog</a>
-</p>
-
-| Feel free to use them in a project! 😃 I would _really_ appreciate a reference to this repo, I create the questions and explanations (yes I'm sad lol) and the community helps me so much to maintain and improve it! 💪🏼 Thank you and have fun! |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-<details><summary><strong> See 20 Available Translations 🇸🇦🇪🇬🇧🇦🇩🇪🇪🇸🇫🇷🇮🇩🇯🇵🇰🇷🇳🇱🇧🇷🇷🇺🇹🇭🇹🇷🇺🇦🇻🇳🇨🇳🇹🇼🇽🇰</strong></summary>
-<p>
-
-- [🇸🇦 العربية](./ar-AR/README_AR.md)
-- [🇪🇬 اللغة العامية](./ar-EG/README_ar-EG.md)
-- [🇧🇦 Bosanski](./bs-BS/README-bs_BS.md)
-- [🇩🇪 Deutsch](./de-DE/README.md)
-- [🇪🇸 Español](./es-ES/README-ES.md)
-- [🇫🇷 Français](./fr-FR/README_fr-FR.md)
-- [🇮🇩 Indonesia](./id-ID/README.md)
-- [🇮🇹 Italiano](./it-IT/README.md)
-- [🇯🇵 日本語](./ja-JA/README-ja_JA.md)
-- [🇰🇷 한국어](./ko-KR/README-ko_KR.md)
-- [🇳🇱 Nederlands](./nl-NL/README.md)
-- [🇵🇱 Polski](./pl-PL/README.md)
-- [🇧🇷 Português Brasil](./pt-BR/README_pt_BR.md)
-- [🇷o Română](./ro-RO/README.ro.md)
-- [🇷🇺 Русский](./ru-RU/README.md)
-- [🇽🇰 Shqip](./sq-KS/README_sq_KS.md)
-- [🇹🇭 ไทย](./th-TH/README-th_TH.md)
-- [🇹🇷 Türkçe](./tr-TR/README-tr_TR.md)
-- [🇺🇦 Українська мова](./uk-UA/README.md)
-- [🇻🇳 Tiếng Việt](./vi-VI/README-vi.md)
-- [🇨🇳 简体中文](./zh-CN/README-zh_CN.md)
-- [🇹🇼 繁體中文](./zh-TW/README_zh-TW.md)
-
-</p>
-</details>
-
----
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
+|
 
 ###### 1. What's the output?
 
@@ -57,7 +20,7 @@ From basic to advanced: test how well you know JavaScript, refresh your knowledg
 function sayHi() {
   console.log(name);
   console.log(age);
-  var name = 'Lydia';
+  var name = 'Tousif';
   let age = 21;
 }
 
@@ -153,7 +116,7 @@ Since there is no value `radius` in the scope of the arrow function, `this.radiu
 
 ```javascript
 +true;
-!'Lydia';
+!'Tousif';
 ```
 
 - A: `1` and `false`
@@ -167,7 +130,7 @@ Since there is no value `radius` in the scope of the arrow function, `this.radiu
 
 The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.
 
-The string `'Lydia'` is a truthy value. What we're actually asking, is "Is this truthy value falsy?". This returns `false`.
+The string `'Tousif'` is a truthy value. What we're actually asking, is "Is this truthy value falsy?". This returns `false`.
 
 </p>
 </details>
@@ -381,7 +344,7 @@ function Person(firstName, lastName) {
   this.lastName = lastName;
 }
 
-const member = new Person('Lydia', 'Hallie');
+const member = new Person('Tousif', 'Hallie');
 Person.getFullName = function() {
   return `${this.firstName} ${this.lastName}`;
 };
@@ -422,7 +385,7 @@ function Person(firstName, lastName) {
   this.lastName = lastName;
 }
 
-const lydia = new Person('Lydia', 'Hallie');
+const lydia = new Person('Tousif', 'Hallie');
 const sarah = Person('Sarah', 'Smith');
 
 console.log(lydia);
@@ -560,7 +523,7 @@ function getPersonInfo(one, two, three) {
   console.log(three);
 }
 
-const person = 'Lydia';
+const person = 'Tousif';
 const age = 21;
 
 getPersonInfo`${person} is ${age} years old`;
@@ -856,7 +819,7 @@ String.prototype.giveLydiaPizza = () => {
   return 'Just give Lydia pizza already!';
 };
 
-const name = 'Lydia';
+const name = 'Tousif';
 
 console.log(name.giveLydiaPizza())
 ```
@@ -1024,7 +987,7 @@ If we click `p`, we see two logs: `p` and `div`. During event propagation, there
 ###### 33. What's the output?
 
 ```javascript
-const person = { name: 'Lydia' };
+const person = { name: 'Tousif' };
 
 function sayHi(age) {
   return `${this.name} is ${age}`;
@@ -1319,7 +1282,7 @@ It returns a unique id. This id can be used to clear that interval with the `cle
 ###### 43. What does this return?
 
 ```javascript
-[...'Lydia'];
+[...'Tousif'];
 ```
 
 - A: `["L", "y", "d", "i", "a"]`
@@ -1408,7 +1371,7 @@ When we pass multiple promises to the `Promise.race` method, it resolves/rejects
 ###### 46. What's the output?
 
 ```javascript
-let person = { name: 'Lydia' };
+let person = { name: 'Tousif' };
 const members = [person];
 person = null;
 
@@ -1448,7 +1411,7 @@ We are only modifying the value of the `person` variable, and not the first elem
 
 ```javascript
 const person = {
-  name: 'Lydia',
+  name: 'Tousif',
   age: 21,
 };
 
@@ -1558,7 +1521,7 @@ However, we don’t return a value. When we don’t return a value from the func
 
 ```javascript
 function getInfo(member, year) {
-  member.name = 'Lydia';
+  member.name = 'Tousif';
   year = '1998';
 }
 
@@ -1806,7 +1769,7 @@ When we try to increment the value of `myCounter`, it throws an error: `myCounte
 ###### 58. What's the output?
 
 ```javascript
-const name = 'Lydia';
+const name = 'Tousif';
 age = 21;
 
 console.log(delete name);
@@ -1877,7 +1840,7 @@ This means that the value of `y` is equal to the first value in the array, which
 ###### 60. What's the output?
 
 ```javascript
-const user = { name: 'Lydia', age: 21 };
+const user = { name: 'Tousif', age: 21 };
 const admin = { admin: true, ...user };
 
 console.log(admin);
@@ -1903,7 +1866,7 @@ It's possible to combine objects using the spread operator `...`. It lets you cr
 ###### 61. What's the output?
 
 ```javascript
-const person = { name: 'Lydia' };
+const person = { name: 'Tousif' };
 
 Object.defineProperty(person, 'age', { value: 21 });
 
@@ -2403,7 +2366,7 @@ Since `shape` is frozen, and since the value of `x` is not an object, we cannot 
 ###### 76. What's the output?
 
 ```javascript
-const { firstName: myName } = { firstName: 'Lydia' };
+const { firstName: myName } = { firstName: 'Tousif' };
 
 console.log(firstName);
 ```
@@ -2421,9 +2384,9 @@ console.log(firstName);
 By using [destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax we can unpack values from arrays, or properties from objects, into distinct variables:
 
 ```javascript
-const { firstName } = { firstName: 'Lydia' };
+const { firstName } = { firstName: 'Tousif' };
 // ES5 version:
-// var firstName = { firstName: 'Lydia' }.firstName;
+// var firstName = { firstName: 'Tousif' }.firstName;
 
 console.log(firstName); // "Lydia"
 ```
@@ -2431,9 +2394,9 @@ console.log(firstName); // "Lydia"
 Also, a property can be unpacked from an object and assigned to a variable with a different name than the object property:
 
 ```javascript
-const { firstName: myName } = { firstName: 'Lydia' };
+const { firstName: myName } = { firstName: 'Tousif' };
 // ES5 version:
-// var myName = { firstName: 'Lydia' }.firstName;
+// var myName = { firstName: 'Tousif' }.firstName;
 
 console.log(myName); // "Lydia"
 console.log(firstName); // Uncaught ReferenceError: firstName is not defined
@@ -2444,7 +2407,7 @@ Therefore, `firstName` does not exist as a variable, thus attempting to access i
 **Note:** Be aware of the `global scope` properties:
 
 ```javascript
-const { name: myName } = { name: 'Lydia' };
+const { name: myName } = { name: 'Tousif' };
 
 console.log(myName); // "lydia"
 console.log(name); // "" ----- Browser e.g. Chrome
@@ -2674,7 +2637,7 @@ With the `call` method, we can change the object to which the `this` keyword ref
 
 ```javascript
 const person = {
-  name: 'Lydia',
+  name: 'Tousif',
   age: 21,
 };
 
@@ -2855,7 +2818,7 @@ If you're trying to set a default parameter's value equal to a parameter that is
 ```javascript
 // module.js
 export default () => 'Hello world';
-export const name = 'Lydia';
+export const name = 'Tousif';
 
 // index.js
 import * as data from './module';
@@ -2982,7 +2945,7 @@ Regular functions, such as the `giveLydiaPizza` function, have a `prototype` pro
 
 ```javascript
 const person = {
-  name: 'Lydia',
+  name: 'Tousif',
   age: 21,
 };
 
@@ -3003,7 +2966,7 @@ for (const [x, y] of Object.entries(person)) {
 
 `Object.entries(person)` returns an array of nested arrays, containing the keys and objects:
 
-`[ [ 'name', 'Lydia' ], [ 'age', 21 ] ]`
+`[ [ 'name', 'Tousif' ], [ 'age', 21 ] ]`
 
 Using the `for-of` loop, we can iterate over each element in the array, the subarrays in this case. We can destructure the subarrays instantly in the for-of loop, using `const [x, y]`. `x` is equal to the first element in the subarray, `y` is equal to the second element in the subarray.
 
@@ -3097,7 +3060,7 @@ This means that `a + b` is never reached, since a function stops running after t
 ```javascript
 class Person {
   constructor() {
-    this.name = 'Lydia';
+    this.name = 'Tousif';
   }
 }
 
@@ -3201,7 +3164,7 @@ The following function would have returned an object:
 ###### 99. What's the output?
 
 ```javascript
-const name = 'Lydia';
+const name = 'Tousif';
 
 console.log(name());
 ```
@@ -3339,8 +3302,8 @@ This means that it waited for the `myPromise` to resolve with the value `I have 
 const set = new Set();
 
 set.add(1);
-set.add('Lydia');
-set.add({ name: 'Lydia' });
+set.add('Tousif');
+set.add({ name: 'Tousif' });
 
 for (let item of set) {
   console.log(item + 2);
@@ -3406,7 +3369,7 @@ function compareMembers(person1, person2 = person) {
   }
 }
 
-const person = { name: 'Lydia' };
+const person = { name: 'Tousif' };
 
 compareMembers(person);
 ```
@@ -3584,8 +3547,8 @@ const jsonArray = JSON.stringify([1, 2, 3]); // '[1, 2, 3]'
 JSON.parse(jsonArray); // [1, 2, 3]
 
 // Stringifying an object  into valid JSON, then parsing the JSON string to a JavaScript value:
-const jsonArray = JSON.stringify({ name: 'Lydia' }); // '{"name":"Lydia"}'
-JSON.parse(jsonArray); // { name: 'Lydia' }
+const jsonArray = JSON.stringify({ name: 'Tousif' }); // '{"name":"Lydia"}'
+JSON.parse(jsonArray); // { name: 'Tousif' }
 ```
 
 </p>
@@ -3596,7 +3559,7 @@ JSON.parse(jsonArray); // { name: 'Lydia' }
 ###### 111. What's the output?
 
 ```javascript
-let name = 'Lydia';
+let name = 'Tousif';
 
 function getName() {
   console.log(name);
@@ -3623,7 +3586,7 @@ Variables with the `let` keyword (and `const`) are hoisted, but unlike `var`, do
 If we wouldn't have declared the `name` variable within the `getName` function, the javascript engine would've looked down the _scope chain_. The outer scope has a variable called `name` with the value of `Lydia`. In that case, it would've logged `Lydia`.
 
 ```javascript
-let name = 'Lydia';
+let name = 'Tousif';
 
 function getName() {
   console.log(name);
@@ -3784,7 +3747,7 @@ When adding a key/value pair using the `set` method, the key will be the value o
 
 ```javascript
 const person = {
-  name: 'Lydia',
+  name: 'Tousif',
   age: 21,
 };
 
@@ -3876,7 +3839,7 @@ With the `+=` operator, we're incrementing the value of `num` by `1`. `num` had 
 
 ```javascript
 const person = {
-  firstName: 'Lydia',
+  firstName: 'Tousif',
   lastName: 'Hallie',
   pet: {
     name: 'Mara',
@@ -4399,7 +4362,7 @@ With the asterisk `*`, we import all exported values from that file, both defaul
 
 ```javascript
 // info.js
-export const name = 'Lydia';
+export const name = 'Tousif';
 export const age = 21;
 export default 'I love JavaScript';
 
@@ -4441,7 +4404,7 @@ const handler = {
 
 const person = new Proxy({}, handler);
 
-person.name = 'Lydia';
+person.name = 'Tousif';
 person.name;
 ```
 
