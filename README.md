@@ -1,18 +1,15 @@
 <div align="center">
-  <img height="100" src="https://javascriptpatterns.vercel.app/fm-logo.png">
+  <img height="100" src="https://img.icons8.com/color/344/javascript.png">
   <h1>Advanced Web Dev Quiz</h1>
 </div>
 
 ---
- 
-> This  repo is related to my [FrontendMasters course](https://frontendmasters.com/courses/web-dev-quiz/). <br /> You'll find the questions and additional resources to get a better understanding of the concepts.
 
 This **Advanced Web Dev Quiz** covers a wide range of the things web devs get to deal with on a daily basis. The goal is to (re)introduce you to certain concepts that you may have forgotten over the years or simply don't get exposed to that often 🙂 
 
 Have fun, and hopefully you'll learn something new today! Good luck! 💪
 
-| ⚠️ This repo **does not contain the answers(!)**, only the questions and useful resources on the question's topic! <br /> To see the answers and watch visualized explanations for each question, **please watch the [FrontendMasters course](https://frontendmasters.com/courses/web-dev-quiz/)! 🙏**  |
-|---|
+| ⚠️ This repo **does not contain the answers(!)**, only the questions and useful resources on the question's topic!
 
 </div>
 
